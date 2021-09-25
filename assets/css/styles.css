@@ -82,7 +82,7 @@ a.button {
 .cart i{
   font-size: 25px;
 }
-/* #Header Area# */
+/* #Header Area End# */
 
 /* Main Area Start */
 .main .row{
@@ -149,17 +149,12 @@ a.button {
   background-color: #fafafa;
 }
 
-.all-backpack .col-1 {
-  
-}
-
 .all-backpack img {
   max-width: 150px;
 }
+/* #Backpack Area End# */
 
-
-
-
+/* Featured Area Start */
 .featured{
   margin-top: 100px;
 }
@@ -185,14 +180,10 @@ a.button {
   padding: 8px 12px;
   background-color: var(--main-color);
 }
-
-
-
-
+/* #Featured Area End# */
 
 
 /* Spacial Offer */
-
 .special-offer{
   padding-top: 40px;
   width: 100%;
@@ -213,12 +204,7 @@ a.button {
 .special-offer .button{
   margin-top: 50px;
 }
-
-
-
-
-
-
+/* #Spacial Offer End# */
 
 
 /* New Offer */
@@ -239,13 +225,7 @@ a.button {
 }
 
 
-
-
-
-
-
 /* Newsletter Area */
-
 .newsletter{
   margin: 100px auto;
 
@@ -296,16 +276,13 @@ a.button {
 }
 
 
-
 /* Footer Area */
-
 .footer{
   padding-top: 40px;
   height: 400px;
   background-color: #101010;
   color: #fafafa;
 }
-
 
 .footer .col-5{
   display: flex;
@@ -329,7 +306,6 @@ a.button {
   font-weight: 700;
 }
 
-
 .footer li{
   list-style: none;
 }
@@ -340,12 +316,7 @@ a.button {
   padding: 10px 0;
   font-weight: 600;
 }
-
-
-
-
-
-
+/* #Footer Area End# */
 
 
 
