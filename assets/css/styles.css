@@ -1,6 +1,12 @@
 /*===== GOOGLE FONTS =====*/
 @import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;600;700&display=swap");
 
+:root{
+  --main-color: #ff6347;
+  --dim-color: #F76146;
+  --off-white: #ccc;
+}
+
 *{
   margin: 0;
   padding: 0;
@@ -8,6 +14,7 @@
   scroll-behavior: smooth;
   font-family: 'Poppins',sans-serif;
 }
+
 
 a{
   text-decoration: none;
@@ -18,9 +25,103 @@ img{
   height: auto;
 }
 
+.row{
+  width: 90%;
+  margin: auto;
+}
+/* Header Area */
+.header{
+  background-color: #fafafa;
+  width: 100%;
+  height: auto;
+}
 
+.navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding-top: 30px;
+}
 
+.navbar .nav-logo a{
+  color: #101010;
+  font-weight: 700;
+  font-size: 24px;
+  font-family: 'Open Sans', sans-serif;
+}
 
+.nav-menu ul{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.nav-menu ul li{
+  list-style: none;
+  padding: 15px 0;
+}
+
+.nav-menu ul li a{
+  text-decoration: none;
+  color: #101010;
+  margin: 0 15px;
+  font-weight: 600;
+  font-family: 'Open Sans';
+  transition: .3s;
+}
+
+.nav-menu ul li a:hover{
+  color: var(--main-color);
+}
+
+.cart i{
+  font-size: 25px;
+}
+/* #Header Area# */
+
+/* Main Area Start */
+.main .row{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.main .row .main-text{
+  flex-basis: 50%;
+  margin-right: 2%;
+}
+
+.main .row .main-text h1{
+  font-size: 168px;
+  font-weight: 600;
+  letter-spacing: 20px;
+  line-height: 150px;
+}
+
+.main .row .main-text p{
+  font-size: 60px;
+  font-weight: 600;
+  letter-spacing: 40px;
+  line-height: 120px;
+}
+
+.main .row .main-text a.button {
+  color: #fafafa;
+  background-color: var(--main-color);
+  padding: 15px 25px;
+  line-height: 60px;
+  transition: .3s;
+}
+
+.main .row .main-text a.button:hover {
+  background-color: var(--dim-color);
+}
+
+.main .row .main-img{
+  flex-basis: 400px;
+  margin-left: 50px;
+}
+/* #Main Area End# */
 
 
 
